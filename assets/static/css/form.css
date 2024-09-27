@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+    & h2 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    & input {
+        margin-bottom: 1rem;
+        padding-left: 0.5rem;
+        font-size: 1.2rem;
+
+        &[type=submit] {
+            background-color: rgb(151, 248, 6);
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
+
+a {
+    color: black;
+}
