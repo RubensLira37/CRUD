@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #071F57;
+    --second-color: #03153E;
+    --second-light-color: #0E2B6D;
+    --dark-color: #010B22;
+    --light-color: #1E3C83;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +15,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100dvh;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100dvh;
     width: 100dvw;
+    min-width: 320px;
+    overflow-x: hidden;
 }
 
 main {
@@ -17,5 +28,6 @@ main {
     flex-direction: column;
     align-items: center;
     width: 80%;
+    min-height: 92dvh;
 }
 
