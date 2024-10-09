@@ -67,7 +67,7 @@
                             echo "<td class='sticky'>" . htmlspecialchars($user_data["name"], ENT_QUOTES) . "</td>";
                             echo "<td>" . htmlspecialchars($user_data["brand"], ENT_QUOTES) . "</td>";
                             echo "<td>" . htmlspecialchars($user_data["category"],ENT_QUOTES) . "</td>";
-                            echo "<td>" . htmlspecialchars($user_data["price"], ENT_QUOTES) . "</td>";
+                            echo "<td>R$ " . htmlspecialchars($user_data["price"], ENT_QUOTES) . "</td>";
                             echo "<td>" . htmlspecialchars($user_data["created_by"], ENT_QUOTES) . "</td>";
                             echo "<td> $formated_created_at </td>";
                             echo "<td> $formated_updated_at </td>";

@@ -18,13 +18,13 @@
         <form action="" method="post" class="form">
             <h2>Form</h2>
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" autofocus required>
+            <input type="text" name="name" id="name" class="requerid" autofocus required>
             <label for="brand">Brand</label>
-            <input type="text" name="brand" id="brand" required>
+            <input type="text" name="brand" id="brand" class="requerid" required>
             <label for="category">Category</label>
-            <input type="text" name="category" id="category" required>
+            <input type="text" name="category" id="category" class="requerid" required>
             <label for="price">Price</label>
-            <input type="text" name="price" id="price" required>
+            <input type="text" name="price" id="price" class="requerid" required>
             <input type="submit" value="Send">
         </form>
         <a href="../../../">Back to home</a>
